@@ -1,0 +1,34 @@
+* { margin: 0; 
+    padding: 0;
+}
+ul, ol { list-style: none;}
+img { display: block;}
+a,p {
+    text-decoration: none;
+    color: #555555;
+}
+h1,h2,h3,h4,h5,h6 { 
+    font-size: 16px;
+    font-weight: normal;
+}
+html { font-size: 26.66667vw;}
+body { 
+    font-size: 16px;
+    font-family: Arial;
+}
+.l { float: left;}
+.r { float: right;}
+.clear::after { 
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    background: #00b38a;
+    height: 45px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+}

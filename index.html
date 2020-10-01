@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <style>
+        .login {
+            height: 0.43rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.13rem;
+            border-bottom: 0.01rem #e8e8e8 solid;
+        }
+        .login p { 
+            margin-left: 0.16rem;
+        }
+        .login div {
+            width: 0.84rem;
+            height: 0.3rem;
+            color: #00b38a;
+            background: #f5f5f5;
+            margin-right: 0.15rem;
+            text-align: center;
+            line-height: 0.3rem;
+            border-radius: 0.15rem;
+        }
+        .login div a { 
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #16b994;
+        }
+        .list li {
+            height: 0.9rem;
+            border-bottom: 0.01rem solid #e8e8e8;
+            display: flex;
+            align-items: center;
+        }
+        .list .list_img { 
+            width: 0.6rem; 
+            margin: 0 0.1rem 0 14px;
+        }
+        .list .list_img img{
+            width: 100%;
+        }
+        .list .list_info { flex: 1;}
+        .list .list_info h2{ font-size: 0.18rem;}
+        .list .list_info p:first-of-type { 
+            font-size: 0.14rem;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.04rem;
+        }
+        .list .list_info p:first-of-type span:last-of-type {
+            margin-right: 0.14rem;
+            color: #17b994;
+        }
+        .list .list_info p:last-of-type { 
+            font-size: 0.12rem; 
+            color: #888888;
+            margin-top: 0.08rem;
+        }
+        .more {
+            height: 0.5rem;
+            background: #fafafa;
+            font-size: 0.15rem;
+            line-height: 0.5rem;
+            text-align: center;
+        }
+        .more a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        footer {
+            height: 1.15rem;
+            text-align: center;
+            font-size: 0.12rem;
+            line-height: 0.22rem;
+            padding-top: 0.27rem;
+            box-sizing: border-box;
+            margin-bottom: 0.45rem;
+        }
+        .tabbar {
+            height: 0.45rem;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            border-top: 0.01rem solid #e8e8e8;
+            border-bottom: 0.01rem solid #e3e3e4;
+            background: #f6f6f6;
+            display: flex;
+            font-size: 0.18rem;
+        }
+        .tabbar i { 
+            font-size: 0.18rem;
+        }
+        .tabbar div { 
+            flex: 1;
+            text-align: center;
+            line-height: 0.45rem;
+        }
+        .tabbar .tabbar_active {
+            background: #e7f3f0;
+            color: #00b38a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>拉勾网</h1>
+    </header>
+    <section class="login">
+        <p class="l">10秒钟定制职位</p>
+        <div class="r"><a href="#">去登陆</a></div>
+    </section>
+    <ul class="list">
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>
+                    <a href="#">证大爱特</a>
+                </h2>
+                <p>
+                    <span>中级java开发工程师</span>
+                    <span>13k-20k</span>
+                </p>
+                <p>今天&nbsp;11：16</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>
+                    <a href="#">证大爱特</a>
+                </h2>
+                <p>
+                    <span>中级java开发工程师</span>
+                    <span>13k-20k</span>
+                </p>
+                <p>今天&nbsp;11：16</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>
+                    <a href="#">证大爱特</a>
+                </h2>
+                <p>
+                    <span>中级java开发工程师</span>
+                    <span>13k-20k</span>
+                </p>
+                <p>今天&nbsp;11：16</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>
+                    <a href="#">证大爱特</a>
+                </h2>
+                <p>
+                    <span>中级java开发工程师</span>
+                    <span>13k-20k</span>
+                </p>
+                <p>今天&nbsp;11：16</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>
+                    <a href="#">证大爱特</a>
+                </h2>
+                <p>
+                    <span>中级java开发工程师</span>
+                    <span>13k-20k</span>
+                </p>
+                <p>今天&nbsp;11：16</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>
+                    <a href="#">证大爱特</a>
+                </h2>
+                <p>
+                    <span>中级java开发工程师</span>
+                    <span>13k-20k</span>
+                </p>
+                <p>今天&nbsp;11：16</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>
+                    <a href="#">证大爱特</a>
+                </h2>
+                <p>
+                    <span>中级java开发工程师</span>
+                    <span>13k-20k</span>
+                </p>
+                <p>今天&nbsp;11：16</p>
+            </div>
+        </li>
+    </ul>
+    <section class="more">
+        <a href="#">加载更多</a>
+    </section>
+    <footer>
+        <p>@2015 lagou.com, all right reserved</p>
+        <p>
+            <a href="#">移动版</a> ·
+            <a href="#">电脑版</a> ·
+            <a href="#">回顶部</a>
+        </p>
+    </footer>
+    <section class="tabbar">
+        <div class="tabbar_active"><i class="iconfont icon-shouye"></i><a href="#"> 职位</a></div>
+        <div><i class="iconfont icon-sousuo"></i><a href="#"> 搜索</a></div>
+        <div><i class="iconfont icon-xiazai4"></i><a href=""> 我的</a></div>
+    </section>
+</body>
+</html>
